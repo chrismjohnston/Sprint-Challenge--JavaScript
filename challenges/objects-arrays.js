@@ -61,12 +61,10 @@ const graduates = [{"id":1,"first_name":"Cynde","university":"Missouri Southern 
 
 /* Request 1: Create a new array called universities that contains all the univeristies in the graduates array.  */
 
-function getUni(graduates,"university") {
-    var output = [];
-    for (var i=0; i <graduates.length ; ++i)
-        output.push(graduates[i]["university"]);
-    return output;
-}
+graduates.forEach(function("university") {
+  console.log("university");
+});
+
 
 var result = getUni("university");
 console.log(result)
