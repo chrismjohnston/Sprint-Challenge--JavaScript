@@ -12,7 +12,7 @@ const tyrannosaurus = {
   diet: "carnivorous",
   weight: "7000kg",
   length: "12m",
-  period: "Late Cretaceious",
+  period: "Late Cretaceous",
   roar: function() {
     return "RAWERSRARARWERSARARARRRR!";
   }
@@ -118,7 +118,7 @@ const graduates = [
   }
 ];
 
-/* Request 1: Create a new array called universities that contains all the univeristies in the graduates array.  
+/* Request 1: Create a new array called universities that contains all the universities in the graduates array.  
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
@@ -226,7 +226,7 @@ The zoo wants to display both the scientific name and the animal name in front o
 const animalNames = [];
 zooAnimals.forEach(element => {
   animalNames.push(
-    `Name ${element.animal_name} Scientific ${element.scientific_name}.`
+    `Name: ${element.animal_name}, Scientific: ${element.scientific_name}.`
   );
 });
 console.log(animalNames);
