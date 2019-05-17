@@ -27,14 +27,14 @@ function greeting(first, last) {
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// consume(2,2,add); // 4
-// consume(10,16,multiply); // 160
-// consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+consume(2, 2, add); // 4
+consume(10, 16, multiply); // 160
+consume("Mary", "Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // ==== Closures ====
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
-
+("Because of closure nestedFunction has can move up the scope of the nest, so to speak, to see a variable at the next level.");
 // Explanation:
 
 const external = "I'm outside the function";
