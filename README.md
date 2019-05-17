@@ -34,7 +34,11 @@ The biggest difference is forEach doesn't actually return anything. It calls a p
 
 2. What is the difference between a function and a method?
 
+A javascript function is an object, but within the scope of that object a function is a method of that object. They are essentially the same thing, but what they are called is based on scope.
+
 3. What is closure?
+
+A feature in Javascript that allows a inner function access variables in the enclosing function. The inner function has access to it's own variables, the ones outside of it, all the way up to the global scope. It cannot however access variables enclosed inside other functions (inside the {}).
 
 4. Describe the four rules of the 'this' keyword.
 
