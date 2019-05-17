@@ -42,6 +42,11 @@ A feature in Javascript that allows a inner function access variables in the enc
 
 4. Describe the four rules of the 'this' keyword.
 
+   1. When the function is called in the global scope the value of **this** inside that function will be the window object.
+   2. If the function is preceded by a dot when it is called, the object before the dot is **this**.
+   3. When a constructor function is used, **this** refers to the instance of that object that is created and returned by the constructor function
+   4. When the call or apply method is used, **this** is explicitly defined.
+
 5. Why do we need super() in an extended class?
 
 ## Project Set up
