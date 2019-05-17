@@ -49,6 +49,8 @@ A feature in Javascript that allows a inner function access variables in the enc
 
 5. Why do we need super() in an extended class?
 
+It is used to access and call functions on an object's parent.
+
 ## Project Set up
 
 Follow these steps to set up and work on your project:
